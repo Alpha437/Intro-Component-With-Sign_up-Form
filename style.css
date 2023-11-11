@@ -1,0 +1,36 @@
+/* || RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+svg,
+img {
+  display: block;
+}
+
+/* || VARIABLES */
+:root {
+  /* Colors */
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
+  --accent-blue: hsl(248, 32%, 49%);
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%);
+
+  /* Fonts */
+  --fw-light: 400;
+  --fw-average: 500;
+  --fw-normal: 600;
+  --fw-bold: 700;
+
+}
+
+/* || GENERAL STYLES */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* .attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
