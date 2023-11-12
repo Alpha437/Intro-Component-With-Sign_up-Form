@@ -30,7 +30,86 @@ img {
 /* || GENERAL STYLES */
 body {
   font-family: 'Poppins', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(./images/bg-intro-mobile.png) var(--red);
 }
 
+.container {
+  width: 85%;
+  max-width: 320px;
+  padding: 3rem 0;
+}
+
+.introduction {
+  text-align: center;
+  color: white;
+}
+
+.call-to-action {
+  padding: 1rem 5rem;
+  border: none;
+  background-color: var(--accent-blue);
+  color: white;
+  margin: 1rem 0;
+  border-radius: .5rem;
+}
+
+.bold {
+  font-weight: var(--fw-bold);
+}
+
+.bg-white {
+  background-color: white;
+  padding: 2rem 1rem;
+  border-radius: .5rem;
+}
+
+.call-to-action,
+.bg-white {
+  box-shadow: 0 8px 0 0 rgba(0, 0, 0, 0.185);
+}
+
+.bio-data {
+  display: grid;
+  row-gap: 1rem;
+}
+
+input {
+  width: 100%;
+  padding: 1.2rem 1rem;
+  border: 1px solid rgb(155, 155, 155);
+  border-radius: .3rem;
+  font-weight: var(--fw-normal);
+  outline: none;
+}
+
+input::placeholder {
+  font-weight: var(--fw-normal);
+}
+
+.submit {
+  padding: 1rem 0;
+  border: none;
+  background-color: var(--green);
+  color: white;
+  text-transform: uppercase;
+  font-weight: var(--fw-average);
+  letter-spacing: 1px;
+}
+
+.terms {
+  text-align: center;
+  font-size: .8rem;
+  color: var(--grayish-blue);
+}
+
+.terms-and-services {
+  color: var(--red);
+  text-decoration: none;
+  font-weight: var(--fw-normal);
+}
 /* .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); } */
