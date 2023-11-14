@@ -120,6 +120,19 @@ input::placeholder {
   font-weight: var(--fw-normal);
 }
 
+/* || ERROR */
+.error {
+  color: var(--red);
+  /* margin-top: -.5rem; */
+  font-size: .8rem;
+  font-style: italic;
+  text-align: right;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
 @media only screen and (min-width: 768px) {
   body {
     background-image: url(./images/bg-intro-desktop.png);
