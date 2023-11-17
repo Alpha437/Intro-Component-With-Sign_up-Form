@@ -10,6 +10,10 @@ img {
   display: block;
 }
 
+button {
+  cursor: pointer;
+}
+
 /* || VARIABLES */
 :root {
   /* Colors */
@@ -106,6 +110,9 @@ input::placeholder {
   box-shadow: 0 5px 0 0 hsl(154, 60%, 44%);
   font-size: 1rem;
 }
+.submit:hover {
+  background-color: hsl(154, 74%, 64%);
+}
 
 .terms {
   text-align: center;
@@ -123,7 +130,6 @@ input::placeholder {
 /* || ERROR */
 .error {
   color: var(--red);
-  /* margin-top: -.5rem; */
   font-size: .8rem;
   font-style: italic;
   text-align: right;

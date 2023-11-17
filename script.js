@@ -7,7 +7,7 @@ const [fname, lname, email, pword] = wrapper;
 const [inputFname, inputLname, inputEmail, inputPword] = inputField;
 const [errorF, errorL, errorE, errorP] = error;
 
-const regEx = new RegExp('^.+@.+\..+$')
+const regEx = new RegExp('^.+@.+\..+$');
 submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
 
