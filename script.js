@@ -8,6 +8,8 @@ const [inputFname, inputLname, inputEmail, inputPword] = inputField;
 const [errorF, errorL, errorE, errorP] = error;
 
 const regEx = new RegExp('^.+@.+\..+$');
+
+// Event listener
 submitBtn.addEventListener('click', (e) => {
   e.preventDefault();
 
